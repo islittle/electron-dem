@@ -1,45 +1,70 @@
-# electron-quick-start
+**electron-quick-start**
 
-**Clone and run for a quick way to see Electron in action.**
+[快速入门指南]（https://electronjs.org/docs/tutorial/quick-start）的最小电子应用程序。
 
-This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start) within the Electron documentation.
+**使用此应用程序以及[Electron API演示]（https://electronjs.org/入门）应用程序获取API代码示例，以帮助您入门。**
 
-**Use this app along with the [Electron API Demos](https://electronjs.org/#get-started) app for API code examples to help you get started.**
 
-A basic Electron application needs just these files:
 
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
+一个基本的电子应用程序只需要这些文件：
 
-You can learn more about each of these components within the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start).
 
-## To Use
+-` json`-指向应用程序的主文件并列出其详细信息和依赖项。
+-` main.js`-启动应用程序并创建一个浏览器窗口来呈现HTML。这是应用程序的**主进程**。
+-` index.html`-要呈现的网页。这是应用程序的**渲染器进程**。
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-```bash
-# Clone this repository
-git clone https://github.com/electron/electron-quick-start
-# Go into the repository
-cd electron-quick-start
-# Install dependencies
+您可以在[快速入门指南]中（https://electronjs.org/docs/tutorial/quick start）了解有关这些组件的更多信息。
+
+
+
+使用方法：
+
+
+
+要克隆和运行此存储库，您需要在计算机上安装[git]（https://git-scm.com）和[node.js]（https://node js.org/en/download/）（随[npm]（http://npm js.com））。从命令行：
+
+
+
+'Bash'
+
+#克隆此存储库
+
+git clone https://github.com/islittle/electron-dem.git
+
+#进入存储库
+
+cd electron-dem
+
+#安装依赖项
+
 npm install
-# Run the app
+
+运行应用程序
+
 npm start
-```
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+` `
 
-## Resources for Learning Electron
 
-- [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
-- [electronjs.org/community#boilerplates](https://electronjs.org/community#boilerplates) - sample starter apps created by the community
-- [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
-- [electron/simple-samples](https://github.com/electron/simple-samples) - small applications with ideas for taking them further
-- [electron/electron-api-demos](https://github.com/electron/electron-api-demos) - an Electron app that teaches you how to use Electron
-- [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
 
-## License
+注意：如果您使用的是Linux bash for Windows，[请参阅本指南]（https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/）或使用命令提示符中的“node”。
 
-[CC0 1.0 (Public Domain)](LICENSE.md)
+
+
+##学习 Electron 资源
+
+
+
+-[electronjs.org/docs]（https://electronjs.org/docs）-所有电子文档
+
+-[electronjs.org/community boilerplates]（https://electronjs.org/community boilerplates）-社区创建的入门应用程序示例
+
+-[ Electron/ Electron快速启动]（https://github.com/electron/electron-quick-start）-一个非常基本的启动 Electron应用程序
+
+-[ Electron/ 简单程序]（https://github.com/electron/simple-samples）-小型应用程序，有进一步发展的想法
+
+-[ Electron/ ElectronAPI演示]（https://github.com/electron/electron-api-demos）-一个教你如何使用 Electron 应用程序
+
+-[hokein/electron sample-apps]（https://github.com/hokein/electron-sample-apps）-各种电子API的小型演示应用程序
+
