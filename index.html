@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>一条生活馆</title>
+  </head>
+  <body>
+    <h1>欢迎使用electron，这只是一个小demo哦!</h1>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    依赖介绍：
+    <ul>
+      <li>1. Node.js <script>document.write(process.versions.node)</script>,</li>
+      <li>2.Chromium <script>document.write(process.versions.chrome)</script>,</li>
+      <li>3. Electron <script>document.write(process.versions.electron)</script>.</li>
+    </ul>
+    <a class="demo-button" href="https://h5.yit.com">进入一条生活馆</a>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>
